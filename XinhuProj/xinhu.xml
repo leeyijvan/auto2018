@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+
+<listeners>
+  <listener class-name="com.demo.until.Listener" />
+</listeners>    
+
+<test name="TEST1" preserve-order="true">
+  <classes>
+    <class name="com.demo.Three.ObjectPageTest">
+      <methods>
+        <include name="test" />
+        <include name="test1" />
+      </methods>
+    </class> 
+  </classes>
+</test>
+
+<test name="TEST2" preserve-order="true">
+ <classes>   
+    <class name="com.demo.One.LoginTest">
+      <methods>
+        <include name="test50" />
+        <include name="test2" />
+        <include name="test3" />
+        <include name="test4" />
+        <include name="test5" />
+        <include name="test6" />
+      </methods>
+    </class>
+  </classes>
+</test>
+
+ <test name="TEST3" preserve-order="true">
+  <classes>
+    <class name="com.demo.One.RibaoTest">
+      <methods>
+        <include name="test43" />
+        <include name="test44" />
+      </methods>
+    </class>
+  </classes>
+</test>
+    
+<test name="TEST4" preserve-order="true">
+  <classes>
+    <class name="com.demo.Two.TellNewaddTest">
+      <methods>
+        <include name="test7" />
+        <include name="test8" />
+        <include name="test9" />
+        <include name="test10" />
+        <include name="test11" />
+      </methods>
+    </class>
+  </classes>
+</test>
+   
+<test name="TEST5" preserve-order="true">
+  <classes>
+    <class name="com.demo.Two.TellzhuyeTest">
+      <methods>
+        <include name="test12" />
+        <include name="test13" />
+        <include name="test14" />
+      </methods>
+    </class>
+ </classes>
+</test>
+   
+<test name="TEST6" preserve-order="true">
+  <classes>
+	<class name="com.demo.Two.TellcaozuoTest">
+      <methods>
+        <include name="test15" /> 
+        <include name="test16" />
+        <include name="test17" />
+        <include name="test18" />
+        <include name="test19" />
+        <include name="test20" />
+        <include name="test21" />
+        <include name="test23" />
+        <include name="test24" />
+        <include name="test25" />
+        <include name="test26" />  
+        <include name="test27" />
+        <include name="test28" />
+        <include name="test29" />
+        <include name="test30" />
+        <include name="test31" />
+        <include name="test32" />
+        <include name="test33" />  
+      </methods>
+    </class>
+  </classes>
+</test>
+  
+<test name="TEST7" preserve-order="true">
+  <classes>
+    <class name="com.demo.Three.KhzhuyeTest">
+      <methods>
+        <include name="test34" />
+        <include name="test35" />
+        <include name="test36" />
+        <include name="test37" />
+      </methods>
+    </class>
+</classes> 
+</test>
+   
+<test name="TEST8" preserve-order="true">
+  <classes>
+    <class name="com.demo.Three.MineKhTest">
+      <methods>
+        <include name="test38" />
+        <include name="test39" />
+        <include name="test40" />
+        <include name="test41" />
+        <include name="test42" />
+      </methods>
+    </class>
+ </classes>
+</test>
+
+<test name="TEST9" preserve-order="true">
+  <classes>
+    <class name="com.demo.Three.DataProviderTest">
+      <methods>
+        <include name="test45" />
+      </methods>
+    </class>
+  </classes>   
+</test>             
+
+</suite>

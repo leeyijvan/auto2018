@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="TEST1(failed)">
+    <classes>
+      <class name="com.demo.One.LoginTest">
+        <methods>
+          <include name="test6"/>
+          <include name="test5"/>
+          <include name="doAfterMethod"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="test4"/>
+          <include name="test50"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.demo.One.LoginTest -->
+      <class name="com.demo.Three.ObjectPageTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.demo.Three.ObjectPageTest -->
+    </classes>
+  </test> <!-- TEST1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
